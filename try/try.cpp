@@ -12,11 +12,6 @@ struct Student {
     int number_list;
     int exam_grades[3];
     int test_grades[5];
-    float getGender(int b) {
-        int a;
-        float t = 3.14;
-        return t;
-    }
 };
 
 Student students[MAX_STUDENTS];
@@ -319,7 +314,6 @@ int launch_idz() {
 
 
 int main() {
-    cout << sizeof (Student);
     setlocale(LC_ALL, "Russian");
     while (true) {
         int choice;
